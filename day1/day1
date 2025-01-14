@@ -1,1 +1,14 @@
 
+CREATE DATABASE college;
+USE college;
+CREATE TABLE student(
+rollno INT,
+name VARCHAR(30),
+age INT
+);
+INSERT INTO  student
+VALUES
+(1 ,"saraj" , 35),
+(2,"nisha" ,18);
+SELECT * FROM student;
+SHOW TABLES;
